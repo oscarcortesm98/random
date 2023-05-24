@@ -1,0 +1,29 @@
+.app {
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;    
+    min-height : 100vh;
+}
+
+.app.bg1 {
+    background-image: url(/images/bg1.png);
+}
+.app.bg2 {
+    background-image: url(/images/bg2.png);
+}
+.app.bg3 {
+    background-image: url(/images/bg3.png);
+}
+.app.bg4 {
+    background-image: url(/images/bg4.png);
+}
+
+.app__container {
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    justify-items: center;
+    padding: 0 10px;
+    width: min(100%, 300px); /* MAX: 100% - MIN: 300px */
+}
